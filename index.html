@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Simple Interest Calculator
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <h1>Interest Calculator</h1>
+    <div id="calculation-area">
+        <label for="principle">Principle Amount:</label>
+        <input type="number" id="principle">
 
+
+        <label for="rate">Rate:</label>
+        <input type="number" id="rate">
+
+        <label for="time">Time</label>
+        <input type="number" id="time">
+
+        <p >Total:$<span id="total">0.00</span></p>
+        <button onclick="calculate()">Calculate</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
